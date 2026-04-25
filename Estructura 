@@ -1,0 +1,17 @@
+import time
+
+corazon_pequeño = "  ❤️  \n ❤️❤️❤️ \n❤️❤️❤️❤️❤️\n❤️❤️❤️❤️❤️\n ❤️❤️❤️❤️ \n  ❤️❤️❤️  \n   ❤️❤️   \n    ❤️    "
+
+corazon_grande = "   ❤️❤️   \n  ❤️❤️❤️❤️  \n ❤️❤️❤️❤️❤️❤️ \n❤️❤️❤️❤️❤️❤️❤️❤️\n❤️❤️❤️❤️❤️❤️❤️❤️\n ❤️❤️❤️❤️❤️❤️❤️ \n  ❤️❤️❤️❤️❤️❤️  \n   ❤️❤️❤️❤️   \n    ❤️❤️❤️    \n     ❤️❤️     \n      ❤️      "
+
+# Animación latido del corazón
+while True:
+    print("\n" * 2)
+    print(corazon_pequeño)
+    time.sleep(0.6)
+    print("\n" * 15)  # Limpiar pantalla
+    
+    print("\n" * 2)
+    print(corazon_grande)
+    time.sleep(0.6)
+    print("\n" * 15)  # Limpiar pantalla
